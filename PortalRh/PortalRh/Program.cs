@@ -36,8 +36,6 @@ builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
 builder.Services.AddTransient<IrepositoryMySQL, RepositoryMySQL>();
 
-builder.Services.AddScoped<FileService>();
-
 builder.Services.AddBlazorDownloadFile();
 
 AddBlazorise(builder.Services);
