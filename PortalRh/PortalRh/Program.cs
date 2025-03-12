@@ -35,7 +35,7 @@ builder.Services.AddTransient<PartidasModel>();
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
 builder.Services.AddTransient<IrepositoryMySQL, RepositoryMySQL>();
-
+//prueba para merge marzo2025
 builder.Services.AddBlazorDownloadFile();
 
 AddBlazorise(builder.Services);
